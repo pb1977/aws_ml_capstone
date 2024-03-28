@@ -80,9 +80,13 @@ The best hyperparameters are then reincorporated into a Tensorflow estimator the
 
 ## Justification
 MSE Basline Linear Regression Model: 1.0916151765857767e-09
+
 MSE of Autoglon Model: 81.44673385599222
+
 MSE of HPO Autoglon Model: 88.07604118054836
+
 MSE of Prophet Model: 2.1994794315927653
+
 MSE of HPO LSTM Model: 0.0016983404690519472
 
-The MSE of HOP LSTM Model clearly out preforms all other models based on the set evalation metric.
+The MSE of HPO LSTM Model clearly out preforms all other models based on the set evalation metric.
