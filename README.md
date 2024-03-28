@@ -21,7 +21,7 @@ To approach this regression problem to predict stock's opening price I will deve
 
 ### Data 
 I will be training the model on 9 years of Amazon stock price data spanning from January 1st 2015 to December 31st 2023 sourced from the yfinance API: https://pypi.org/project/yfinance/. The yfinance API is time series data sourced daily. In its original form the data is processed as the following:
-![](./images/dataset.png)
+![](./ima/dataset.png)
 
 Dropping both the ‘Dividends’ and ‘Stock Splits’ and resetting the ‘Date’ index to a column our data takes the shape of 2264 row and 6 columns with the following data types:
   Column  Non-Null Count  Dtype                           
@@ -39,7 +39,7 @@ The data will be split into a 70/30 split of training and testing data. Which wi
 
 MSE - MSE stands for Mean Squared Error, a widely used metric in statistics and machine learning for evaluating the accuracy of a predictive model. It quantifies the average squared difference between the predicted values and the actual values in a dataset. To compute MSE, you first calculate the squared difference between each predicted value yhat and its corresponding actual y value. Then, you take the average of these squared differences. The formula for MSE can be expressed as:
 
-![](./images/mse.png)
+![](./img/mse.png)
 
 A lower MSE indicates better model performance, as it signifies that the model's predictions are closer to the actual values on average.
 
