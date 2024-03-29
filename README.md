@@ -89,4 +89,14 @@ MSE of Prophet Model: 2.1994794315927653
 
 MSE of HPO LSTM Model: 0.0016983404690519472
 
-The MSE of HPO LSTM Model clearly out preforms all other models based on the set evalation metric.
+Using a two-sample t-test 
+Null Hypothesis (H0): MSE of LSTM = MSE of Linear Regression Benchmark 
+Alternative Hypothesis (H1): MSE of LSTM != MSE of Linear Regression Benchmark Using a significance level of .05
+
+significance level = .05
+t statistic = -25.38157478711179
+degrees of freedom = 1017
+T critical values are 1.96229933264343 and -1.96229933264343
+t statistic <  -1.96229933264343
+Therefore we accept the alternative H1 hypothesis that the LSTM model is significantly different from the baseline model
+
